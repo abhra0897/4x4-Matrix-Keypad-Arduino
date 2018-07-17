@@ -22,8 +22,8 @@ void loop()
 {
     char keyVal = scanKeyPress();
 
-    //if pressed key is not '\0', get keyval from lookup table
-    //Now do whatever with the value. Here we print it
+    //if pressed key is not '\0', i.e key press is detected,
+    //do whatever you want with the returned value.
     if(keyVal != '\0')
     {
         if(keyVal != INCREMENT && keyVal != DECREMENT && keyVal != CANCEL && keyVal != ENTER && keyVal != ZERO)
